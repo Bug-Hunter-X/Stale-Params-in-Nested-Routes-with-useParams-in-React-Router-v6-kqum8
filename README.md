@@ -1,0 +1,3 @@
+This repository demonstrates a common issue in React Router v6 involving the `useParams` hook within nested routes. When a child route uses `useParams` and its parent route also uses `useParams`, unexpected behavior may occur due to stale parameter values. The example shows how the child component might not always reflect the latest parameters from the URL, potentially leading to incorrect rendering or data fetching.
+
+The solution showcases how to access and correctly handle parameters in nested routes using React Router v6.
